@@ -95,25 +95,24 @@ img{
 }
 .zeda{
   position: absolute;
-  width: 978px;
-  height: 976px;
+  width: 878px;
+  height: 876px;
   background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+  border-radius: 50%;
+  top: -400px;
+  left: -254.71px;
   mix-blend-mode: normal;
   opacity: 0.5;
   transform: rotate(-135deg);
-  border-radius: 50%;
-  top: -53%;
-  left: -20%;
 }
 .kveda{
-  position: absolute;
-  width: 978px;
-  height: 976px;
-  left: 48%;
-  top: 50%;
+  position: fixed;
+  width: 878px;
+  height: 776px;
   background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
-  mix-blend-mode: normal;
-  opacity: 0.25;
-  transform: matrix(0.71, -0.71, -0.71, -0.71, 0, 0);
   border-radius: 50%;
+  bottom: -400px;
+  right: -150px;
+  mix-blend-mode: normal;
+  opacity: 0.7;
 }
