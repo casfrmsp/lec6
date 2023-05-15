@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #19A1AE;  
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 350px;
+  height: 374px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 15px;
+}
+.burtulebi{
+  background-image: url(./assets/burtulebi.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 140px;
+  background-color: #41cbd3;
+  top: 0px;
+  border-radius: 15px 15px 0px 0px;
+}
+.nameage{
+  box-sizing: border-box;
+  font-style: normal;
+  display: flex;
+  font-family: 'Kumbh Sans';
+}
+.name{
+  height: 18px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #2e3349;
+  margin-top: 30px;
+  font-family: 'Kumbh Sans';
+}
+
+.age{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #6b7082;
+  padding-left: 8.5px;
+  margin-top: 30px;
+  height: 18px;
+  font-family: 'Kumbh Sans';
+}
+.city{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6b7082;
+  padding-top: 85px;
+  position: absolute;
+  font-family: 'Kumbh Sans';
+}
+.line{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  height: 88px;
+  width: 100%;
+  bottom: 0;
+  border-top: 2px solid #E8E9EC;
+}
+img{
+  position: absolute;
+  padding: 92px 127px 186px 127px;
+}
+.zeda{
+  position: absolute;
+  width: 978px;
+  height: 976px;
+  background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  transform: rotate(-135deg);
+  border-radius: 50%;
+  top: -53%;
+  left: -20%;
+}
+.kveda{
+  position: absolute;
+  width: 978px;
+  height: 976px;
+  left: 48%;
+  top: 50%;
+  background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  transform: matrix(0.71, -0.71, -0.71, -0.71, 0, 0);
+  border-radius: 50%;
+}
