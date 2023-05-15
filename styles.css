@@ -93,6 +93,27 @@ img{
   position: absolute;
   padding: 92px 127px 186px 127px;
 }
+.followers{
+  text-align: center;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Kumbh Sans';
+  }
+.likes{
+  text-align: center;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Kumbh Sans';
+}
+.photos{
+  text-align: center;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Kumbh Sans';
+}
+h2{
+  font-family: 'Kumbh Sans';
+}
 .zeda{
   position: absolute;
   width: 878px;
