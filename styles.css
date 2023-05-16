@@ -98,21 +98,29 @@ img{
   box-sizing: border-box;
   font-style: normal;
   font-family: 'Kumbh Sans';
+  font-weight: 400;
+
   }
 .likes{
   text-align: center;
   box-sizing: border-box;
   font-style: normal;
   font-family: 'Kumbh Sans';
+  font-weight: 400;
+
 }
 .photos{
   text-align: center;
   box-sizing: border-box;
   font-style: normal;
   font-family: 'Kumbh Sans';
+  font-weight: 400;
+
 }
 h2{
   font-family: 'Kumbh Sans';
+  font-weight: 700;
+
 }
 .zeda{
   position: absolute;
